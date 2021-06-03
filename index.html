@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public API 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="head">
+        Covid Cases
+    </div>
+
+    <form>
+        <input type="text" value='' name='country_name' id="country_name" placeholder="enter country name">
+        <button onclick="getresult(event)">Submit</button>
+    </form>
+    
+    <section id="details">
+        <div class="con">
+            <span>Confirmed Cases: &nbsp;</span>
+            <div id="confirmed">
+                0
+            </div>
+        </div>
+
+        <div class="rec">
+            <span>Recovered Cases: &nbsp;</span>
+            <div id="recovered">
+                0
+            </div>
+        </div>
+
+        <div class="death">
+            <span>Total Deaths: &nbsp;  </span>
+            <div id="deaths">
+                0
+            </div>
+        </div>
+
+        <div class="total_pop">
+            <span>Total Population: &nbsp</span>
+            <div id="population">
+                0
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

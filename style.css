@@ -22,6 +22,20 @@ form{
     margin-top: 10px;
 }
 
+select{
+    width: 150px;
+    height: 20px;
+    background: white;
+    outline: none;
+    font-size: 15px;
+}
+
+select option{
+    background-color: white;
+    outline: none;
+    color: #007ACC;
+}
+
 button{
     color: #007ACC;
     width: 50px;
@@ -30,7 +44,7 @@ button{
     outline: none;
     border: none;
 }
-
+/* 
 input{
     color: white;
     border: white 1px solid;
@@ -39,7 +53,7 @@ input{
     border-radius: 5px;
     width: auto;
     height: 25px;
-}
+} */
 
 section{
     margin-top: 10px;

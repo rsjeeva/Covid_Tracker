@@ -83,7 +83,7 @@ function apidata(data, country_name)
 
             var casesrecovered = data[arr[i]].All.recovered;
             rec.innerHTML=casesrecovered;
-            // console.log(casesrecovered);
+            console.log(casesrecovered);
 
             var death = data[arr[i]].All.deaths;
             ded.innerHTML = death;

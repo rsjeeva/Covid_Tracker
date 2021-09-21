@@ -59,7 +59,7 @@ function getresult(event)
 
 }
 
-var rec = document.getElementById('recovered');
+// var rec = document.getElementById('recovered');
 var conf = document.getElementById('confirmed');
 var pop = document.getElementById('population');
 var ded = document.getElementById('deaths');
@@ -81,9 +81,9 @@ function apidata(data, country_name)
             conf.innerHTML=confirmedcases;
             // console.log(confirmedcases);
 
-            var casesrecovered = data[arr[i]].All.recovered;
-            rec.innerHTML=casesrecovered;
-            console.log(casesrecovered);
+//             var casesrecovered = data[arr[i]].All.recovered;
+//             rec.innerHTML=casesrecovered;
+//             console.log(casesrecovered);
 
             var death = data[arr[i]].All.deaths;
             ded.innerHTML = death;
